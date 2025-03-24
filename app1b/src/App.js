@@ -9,6 +9,16 @@ import KitchenSink from './components/KitchenSink';
 import Nesting from './components/Nesting';
 import SpecialTitle from './components/SpecialTitle';
 import Toggle from './components/Toggle';
+import Spinner from './components/Spinner';
+import Growing from './components/Growing';
+import Bttnspinner from './components/Bttnspinner';
+import ToastB from './components/ToastB';
+import Popover from './components/Popover';
+import Pagination from './components/Pagination';
+import Tab from './components/Tab';
+import Modal from './components/Modal';
+import List from './components/List';
+import Colapse from './components/Colapse';
 
 
 function App() {
@@ -24,6 +34,16 @@ function App() {
       <SpecialTitle/>
       <CardGroup/>
       <Carousel/>
+      <Spinner/>
+      <Growing/>
+      <Bttnspinner/>
+      <ToastB/>
+      <Popover/>
+      <Pagination/>
+      <Tab/>
+      <Modal/>
+      <List/>
+      <Colapse/>
     </div>
   );
 }
